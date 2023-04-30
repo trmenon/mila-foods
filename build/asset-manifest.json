@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/main/static/css/main.4e4bf347.css",
+    "main.js": "/main/static/js/main.90ade779.js",
+    "static/js/787.5705ab7f.chunk.js": "/main/static/js/787.5705ab7f.chunk.js",
+    "static/media/ragi_powder.png": "/main/static/media/ragi_powder.d68f67580b6f5cc90866.png",
+    "static/media/kanakayya_powder.png": "/main/static/media/kanakayya_powder.7d5779a7f546f969ab8d.png",
+    "static/media/banana_powder.png": "/main/static/media/banana_powder.5d62714457e3a9d6f37c.png",
+    "static/media/rice_banana_dates_mix.png": "/main/static/media/rice_banana_dates_mix.170c38b7e32de9718b51.png",
+    "static/media/banner-app.jpg": "/main/static/media/banner-app.b36b3ac735cf7eb299b5.jpg",
+    "static/media/brand.png": "/main/static/media/brand.1f07c761310448f5227a.png",
+    "static/media/coming_soon.jpg": "/main/static/media/coming_soon.ff2c24dacea74667bd79.jpg",
+    "index.html": "/main/index.html",
+    "main.4e4bf347.css.map": "/main/static/css/main.4e4bf347.css.map",
+    "main.90ade779.js.map": "/main/static/js/main.90ade779.js.map",
+    "787.5705ab7f.chunk.js.map": "/main/static/js/787.5705ab7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4bf347.css",
+    "static/js/main.90ade779.js"
+  ]
+}

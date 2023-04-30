@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-main {
+  padding: 0px;
+  width: 100%;
+  min-height: 80vh;
+  background-image: url('./assets/banner-app.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+
+.brand-title {
+  font-size: 84px;
+  color: #FFF;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.brand-subtitle {
+  font-size: 36px;
+  color: #e7eb05;
+  font-weight: 500;
+  text-shadow: 0px 0px 4px rgba(34, 27, 238, 0.85);
+  text-align: left;
+}
+
+.custom-bull-btn {
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.custom-bull-btn-success:hover {
+  color: #15fa00;
+  cursor: pointer;
+}
+.custom-bull-btn-warning:hover {
+  color: #fcb900;
+  cursor: pointer;
+}
+
+.rich-btn {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 340px;
+  padding: 12px 32px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.rich-btn:active,
+.rich-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .rich-btn {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
